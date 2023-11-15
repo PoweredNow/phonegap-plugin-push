@@ -128,6 +128,16 @@
       </config>
       <pods use-frameworks="true">
         <pod name="Firebase/Messaging" spec="$IOS_FIREBASE_MESSAGING_VERSION" />
+        <pod name="Firebase/Core" spec="10.10.0"/>
+				<pod name="Firebase/Auth" spec="10.10.0"/>
+				<pod name="Firebase/Messaging" spec="10.10.0"/>
+				<pod name="Firebase/Performance" spec="10.10.0"/>
+				<pod name="Firebase/RemoteConfig" spec="10.10.0"/>
+				<pod name="Firebase/InAppMessaging" spec="10.10.0"/>
+				<pod name="Firebase/Firestore" spec="10.10.0"/>
+				<pod name="Firebase/Crashlytics" spec="10.10.0"/>
+				<pod name="Firebase/Functions" spec="10.10.0"/>
+				<pod name="Firebase/Installations" spec="10.10.0"/>
       </pods>
     </podspec>
   </platform>
